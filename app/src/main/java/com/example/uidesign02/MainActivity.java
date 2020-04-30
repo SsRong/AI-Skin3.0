@@ -75,8 +75,7 @@ public class MainActivity extends Activity {
         inferenceInterface = new TensorFlowInferenceInterface();
         inferenceInterface.initializeTensorFlow(getAssets(), MODEL_PATH);
 
-        //点击监听：加载loadImage按钮功能
-        //当点击‘图库’时，访问图库选择图像
+        //点击监听：加载loadImage按钮功能；当点击‘图库’时，访问图库选择图像
         Button loadImage = findViewById(R.id.loadImage);
         loadImage.setOnClickListener(new Button.OnClickListener(){
             @Override
