@@ -105,6 +105,15 @@ public class MainActivity extends Activity {
             }
         });
 
+         Button predictionItems = findViewById(R.id.predictionItems);
+         predictionItems.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent = new Intent(MainActivity.this, PredictionListActivity.class);
+                 startActivity(intent);
+             }
+         });
+
     }
 
     private void pickImageFromGallery() {

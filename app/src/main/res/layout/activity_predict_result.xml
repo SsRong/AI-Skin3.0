@@ -39,16 +39,42 @@
 
     <TextView
         android:id="@+id/dangerLevel"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
-        android:text="0.99"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="99.99%  危险！！"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554"
+        app:layout_constraintVertical_bias="0.555"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/predictResultTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.99"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/saveResult"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
